@@ -8,6 +8,8 @@ namespace ConsoleApp1
         {
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.WriteLine("Erekle Bzekalava");
+            Console.ResetColor();
+            
         }
     }
 }
