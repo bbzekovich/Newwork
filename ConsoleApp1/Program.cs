@@ -6,8 +6,29 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.BackgroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Erekle Bzekalava");
+
+            Console.WriteLine("enter number");
+            var X = Convert.ToInt32(Console.ReadLine());
+            var Y = 5;
+
+            if ((X % Y == 0))
+            {
+                Console.WriteLine("Yes");
+            }
+            else
+            {
+                Console.WriteLine("No");
+
+            }
+
+
+
         }
+
+
+
     }
+
+
+
 }
